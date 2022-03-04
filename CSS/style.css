@@ -145,6 +145,11 @@ input {
     position: relative;
 }
 
+.left-content h2,
+.left-content p {
+    color: var(--defult-text);
+}
+
 .theme-container {
     width: 60px;
     display: flex;
