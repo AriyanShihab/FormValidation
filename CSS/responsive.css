@@ -1,0 +1,10 @@
+ @media only screen and (max-width: 800px) {
+     .sing-up,
+     .loginDiv {
+         flex-direction: column;
+     }
+     .main-container {
+         width: 90vw;
+         padding: 10px 0px;
+     }
+ }

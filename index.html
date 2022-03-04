@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
+    <script src="JavaScript/script.js" defer></script>
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main-container">
+            <!-- singUp -->
+            <div id="singup" class="sing-up">
+                <div class="left-content">
+                    <h2>Hello There</h2>
+                    <p>welcome on the bord</p>
+                    <p>This is an basic HTML Form validation Using Vanila js</p>
+
+                    <img src="images/home-illustration-01.webp" alt="" />
+                </div>
+
+                <div class="form-container">
+                    <form action="#" id="singupForm">
+                        <input type="text" id="name" placeholder=" Enter your Name" />
+                        <input type="email" id="email" placeholder=" Enter your Email" />
+                        <input type="password" id="password" placeholder=" Enter your Password" />
+                        <input type="password" id="password2" placeholder=" Confirm your Password" />
+                        <button type="submit" id="submit" class="submit-btn">
+                Sing Up
+              </button>
+                    </form>
+                </div>
+            </div>
+            <!-- login -->
+
+            <!-- <div id="login " class="loginDiv">
+                <h2>Hello There</h2>
+                <p>welcome back again</p>
+                <img src="images/login.webp" alt="" />
+
+                <form action="#" id="LoginForm">
+                    <input type="text" id="loginName" placeholder="Please inter your Name" />
+
+                    <input type="email" placeholder="Please inter your Email" />
+                    <input type="password" id="loginPass" placeholder="Please inter your Password" />
+                    <button type="submit" id="submit2" class="submit-btn">Login</button>
+                </form>
+            </div> -->
+        </div>
+    </div>
+
+    <div id="namePopup" class="nameError">
+        <div class="card">
+            <div class="imge">
+                <img class="card-Image" src="images/Sumit Saha Sir.jfif" alt="" />
+            </div>
+            <div class="content">
+                <h3>
+                    The Great Teacher
+                    <a href="https://github.com/learnwithsumit">Sumit Saha </a>Once Said :
+                </h3>
+                <p style="font-size: 20px; font-weight: bolder">
+                    "Never Trust Your User"
+                </p>
+                <h3 class="border">Please Fill Up the Name Feild</h3>
+
+                <button id="closePopup" class="submit-btn">Reload Window</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- password error -->
+    <div id="passwordPopup" class="nameError">
+        <div class="card">
+            <div class="imge">
+                <img class="card-Image" src="images/Sumit Saha Sir.jfif" alt="" />
+            </div>
+            <div class="content">
+                <h3>
+                    The Great Teacher
+                    <a href="https://www.facebook.com/sumit.analyzen">Sumit Saha </a
+            >Once Said :
+          </h3>
+          <p>Never Trust Your User</p>
+          <h3 class="border">PLease Enter exact same password in both Feild</h3>
+          <button id="closePopup2" class="submit-btn">Reload Window</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- password sort -->
+
+    <div id="passwordSortPopup" class="nameError">
+      <div class="card">
+        <div class="imge">
+          <img class="card-Image" src="images/Sumit Saha Sir.jfif" alt="" />
+        </div>
+        <div class="content">
+          <h3>
+            The Great Teacher
+            <a href="https://www.facebook.com/sumit.analyzen">Sumit Saha </a
+            >Once Said :
+          </h3>
+          <p>Never Trust Your User</p>
+          <h3 class="border">
+            Password must be learger than 4 and shorter Than 12 (character)
+          </h3>
+          <button id="closePopup3" class="submit-btn">Reload Window</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
