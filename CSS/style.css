@@ -13,6 +13,13 @@
     --defult-text: rgb(7, 3, 58);
 }
 
+[data-theme="dark"] {
+    --body-bg: #0f172a;
+    --form-container: #091b38;
+    --input: #1b274b;
+    --defult-text: rgb(243, 242, 255);
+}
+
 a {
     text-decoration: none;
 }
@@ -132,4 +139,30 @@ input {
     justify-content: center;
     align-items: center;
     transition: .5s;
+}
+
+.left-content {
+    position: relative;
+}
+
+.theme-container {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
+
+.theme-container .theme {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: var(--defult-text);
+}
+
+.theme-container .Light {
+    background-color: var(--input);
 }
